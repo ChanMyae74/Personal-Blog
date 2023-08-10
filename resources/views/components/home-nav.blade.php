@@ -1,12 +1,13 @@
 <header class="sticky top-0 z-40 flex-none mx-auto w-full bg-white dark:bg-gray-800 ">
     <nav
-        class="border-b border-gray-100 px-4 bg-gray-50 border-b border-gray-200 bg-gray-50 dark:border-gray-700 dark:bg-gray-800 lg:px-6 py-2.5">
+        class="border-b border-gray-100 px-4 bg-gray-50 border-b border-gray-200 bg-gray-50
+         dark:border-gray-700 dark:bg-gray-800 lg:px-6 py-2.5">
         <div class="flex flex-col md:flex-row justify-between items-center">
             <div class="">
                 <a href="/"
-                   class="ml-2 m-0 duration-300 inline-flex rounded-xl font-semibold dark:text-white py-2 px-3 hover:bg-slate-900">
-
-                    <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white">Blog</span>
+                   class="ml-2 m-0 duration-300 inline-flex rounded-xl font-semibold dark:text-white px-3">
+                   <img src="{{ asset('images/Tech-Si Logo.png') }}" alt="" class="w-8 mr-2">
+                    <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white uppercase">Tech-Si</span>
                 </a>
             </div>
             <div class="md:items-center flex mt-3 md:mt-0">

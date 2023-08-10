@@ -1,7 +1,11 @@
 <footer class="bg-white dark:bg-transparent max-w-screen-2xl mx-auto">
         <div class="flex justify-evenly grid grid-cols-1 gap-8 px-4 py-6 lg:py-8 md:grid-cols-3">
             <div class="mx-0 md:mx-auto">
-                <h2 class="mb-2 md:mb-6 text-2xl font-semibold text-gray-900 uppercase dark:text-white">Tech-si</h2>
+                <a href="/"
+                class="duration-300 inline-flex rounded-xl font-semibold dark:text-white hover:bg-slate-900 mb-6">
+                <img src="{{ asset('images/Tech-Si Logo.png') }}" alt="" class="w-8 mr-2">
+                 <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white uppercase">Tech-Si</span>
+             </a>
                 <div class="flex mt-4 space-x-5 sm:justify-start md:mt-0">
                     <a href="mailto:sithusoe971991@gmail.com" target="_blank"
                        class="text-gray-400 hover:text-gray-900 dark:hover:text-white">
