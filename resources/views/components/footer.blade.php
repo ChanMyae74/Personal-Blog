@@ -2,7 +2,7 @@
         <div class="flex justify-evenly grid grid-cols-1 gap-8 px-4 py-6 lg:py-8 md:grid-cols-3">
             <div class="mx-0 md:mx-auto">
                 <a href="/"
-                class="duration-300 inline-flex rounded-xl font-semibold dark:text-white hover:bg-slate-900 mb-6">
+                class="duration-300 inline-flex rounded-xl font-semibold dark:text-white hover:bg-gray-200 dark:hover:bg-slate-900 mb-6">
                 <img src="{{ asset('images/Tech-Si Logo.png') }}" alt="" class="w-8 mr-2">
                  <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white uppercase">Tech-Si</span>
              </a>

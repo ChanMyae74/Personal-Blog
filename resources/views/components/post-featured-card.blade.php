@@ -24,8 +24,8 @@
                     </h1>
 
                     <span class="mt-2 block text-gray-400 text-xs">
-                                        Published <time>{{$post->created_at->diffForHumans()}}</time>
-                                    </span>
+                     Published <time>{{$post->created_at->diffForHumans()}}</time>
+                    </span>
                 </div>
             </header>
 
@@ -37,7 +37,7 @@
 
             <footer class="flex justify-between items-center mt-8">
                 <div class="flex items-center text-sm">
-                    <img src="/images/lary-avatar.svg" alt="Lary avatar" class="w-8 h-8">
+                    <img src="{{asset('images/Tech-Si Logo.png')}}" alt="" class=" w-8 h-8">
                     <div class="ml-3">
                         <h5 class="font-bold">
                             <a href="/?author={{ $post->author->name }}">
@@ -48,9 +48,9 @@
                 </div>
 
                 <div class=" md:block">
-                    <a href="{{route('post.show',$post)}}"
+                    <x-master_a_button :link="route('post.show',$post)"
                        class="text-gray-900 bg-white hover:bg-gray-100 border border-gray-200 focus:ring-4 focus:outline-none focus:ring-gray-100 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-gray-600 dark:bg-gray-800 dark:border-gray-700 dark:text-white dark:hover:bg-gray-700 mr-2 mb-2"
-                    >Read More</a>
+                    >Read More</x-master_a_button>
                 </div>
             </footer>
         </div>

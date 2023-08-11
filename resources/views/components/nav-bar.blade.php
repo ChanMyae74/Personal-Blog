@@ -5,7 +5,7 @@
         <div class="flex flex-col md:flex-row flex-wrap justify-between items-center mx-auto max-w-screen-xl">
             <div class="">
                 <a href="/"
-                   class="ml-2 m-0 duration-300 inline-flex rounded-xl font-semibold dark:text-white py-2 px-3 hover:bg-slate-900">
+                   class="ml-2 m-0 duration-300 inline-flex rounded-xl font-semibold dark:text-white py-2 px-3 hover:bg-gray-200 dark:hover:bg-slate-900">
                    <img src="{{ asset('images/Tech-Si Logo.png') }}" alt="" class="w-8 mr-3">
                     <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white uppercase">Tech-Si</span>
                 </a>
