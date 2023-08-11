@@ -25,8 +25,10 @@
     <x-home-nav/>
         <div class="min-h-screen flex flex-col sm:justify-center items-center pt-6 sm:pt-0 bg-gray-100 dark:bg-gray-900">
             <div>
-                <a href="/">
-                    <x-application-logo class="w-20 h-20 fill-current text-gray-500" />
+                <a href="/"
+                   class="ml-2 m-0 duration-300 inline-flex rounded-xl font-semibold dark:text-white py-2 px-3 hover:bg-gray-200 dark:hover:bg-slate-900">
+                   <img src="{{ asset('images/Tech-Si Logo.png') }}" alt="" class=" w-12 mr-3">
+                    <span class="self-center text-2xl text-black font-semibold whitespace-nowrap dark:text-white uppercase">Tech-Si</span>
                 </a>
             </div>
 

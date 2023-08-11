@@ -41,7 +41,7 @@
                 </p>
 
                 <div class="flex items-center lg:justify-center text-sm mt-4">
-                    <img src="/images/lary-avatar.svg" alt="Lary avatar">
+                    <img src="{{asset('images/Tech-Si Logo.png')}}" alt="" class=" w-8 h-8">
                     <div class="ml-3 text-left">
                         <h5 class="font-bold">
                             <a href="/?author={{ $post->author->name }}">

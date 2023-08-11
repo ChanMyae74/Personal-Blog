@@ -28,7 +28,7 @@
     <header class="max-w-screen-2xl mt-20 text-center mx-auto">
         <div class="mx-auto">
             <h1 class="text-2xl md:text-4xl ">Latest <span class="text-blue-500">Tech-Si</span> Article New.</h1>
-            <h2 class="inline-flex mt-2 font-semibold">By Tech-Si <img src="{{asset('images/lary-head.svg')}}" alt="">
+            <h2 class="inline-flex mt-2 font-semibold">By Tech-Si <img src="{{asset('images/Tech-Si Logo.png')}}" alt="" class=" w-7 h-7 ml-2">
             </h2>
         </div>
         <div class="space-y-2 lg:space-y-0 lg:space-x-4 mt-8">
